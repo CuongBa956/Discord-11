@@ -1,0 +1,34 @@
+[class^="channel-"] > div > [href="/store"], /* Nitro Button above DM List */
+[class^="channelTextArea"] [class^="buttons-"] > button, /* Hide Gift Button */
+[class^="upsellVisible-"], /* Hide Banner Nitro Upsell Header */
+[class^="premiumIconWrapper"], /* Hide Nitro Icon on Banners */
+[class^="characterCount-"] [class*="upsell-"], /* "Send longer Messages with Discord Nitro!" */
+[class^="emojiSection-"] [class*="shinyButton-"] /* "Get Nitro" button in Emoji/Sticker modal" */
+{
+    display: none !important;
+}
+/* HSL on Top */
+#app-mount .guilds-2JjMmN [class*=expandedFolderBackground] {
+    border-radius: var(--winrad2) !important;
+    left: calc(var(--server-size)/2) !important;
+}
+#app-mount .guilds-2JjMmN .wrapper-z5ab_q {
+    height: auto !important;
+    width: 0px !important;
+    top: calc(-50% + 1px) !important;
+    margin-left: 0px !important;
+}
+#app-mount .guilds-2JjMmN [class*=pill] span {
+    border-radius: 1.5px !important;
+}
+#app-mount .listItem-3SmSlK {
+    width: fit-content !important;
+    margin: 0 12px 6px !important;
+}
+.tutorialContainer-2jwoiB + .listItem-3SmSlK {
+    position: fixed !important;
+}
+#app-mount .base-2jDfDU {
+    border-left: none;
+    border-top-left-radius: 0px;
+}
